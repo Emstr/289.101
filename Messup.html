@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>Page dos</title>
+        <style>
+            .important {
+                 color:red;
+                font-style: italic
+            }
+            
+            .alsoimportant {
+                color:blue;
+                font-family: helvetica;
+                font-size: 1
+            }
+            
+            .flex-container {
+                width: 800px;
+                height: auto;
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+                justify-content: space-around;
+                margin: 0 auto;
+            }
+            
+            .flex-child {
+                flex: 1 30px;
+                width: 80px;
+                height: auto;
+                margin: 10px;
+            }
+            
+            .flex-image {
+                width: 300px;
+            }
+        
+        </style>
+    </head>
+    <body>
+        <div class="flex-container">
+            <div class="flex-child">
+                <img src="cat.png" class="flex-image">
+                <h1>Hey this is a cat</h1>
+            </div>
+            <div class="flex-child">
+                <img src="cat.png" class="flex-image">
+                <h1>Hey this is a cat</h1>
+            </div>
+            <div class="flex-child">
+                <img src="cat.png" class="flex-image">
+                <h1>Hey this is a cat</h1>
+            </div>
+        </div>
+    </body>
+</html>
