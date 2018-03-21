@@ -9,6 +9,21 @@
     width: 100%;
 }
 
+.greencontainer {
+    background-color: green;
+    height: 190px;
+    width: 920px;
+}
+
+.yellowGreenBox {
+    background-color: yellow;
+    width: 430px;
+    height: 150px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
 .redcontainer {
     background-color: red;
     height: 400px;

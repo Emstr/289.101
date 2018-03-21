@@ -1,0 +1,56 @@
+.container {
+    width: 920px;
+    margin: auto;
+}
+
+.header {
+    background-color: blue;
+    height: 200px;
+    width: 100%;
+}
+
+.logo {
+    background-color: yellow;
+    margin: 20px;
+    height: 160px;
+    width: 160px;
+    float: right;
+}
+
+.redcontainer1 {
+    width: 40%;
+    height: 500px;
+    float: left;
+    background-color: red;
+}
+
+.redcontainer2 {
+    width: 552px;
+    height: 500px;
+    float: left;
+    background-color: red;
+}
+
+.smallYellowBox {
+    background-color: yellow;
+    width: 200px;
+    height: 220px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.largeYellowBox {
+    background-color: yellow;
+    width: 292px;
+    height: 460px;
+    float: left;
+    margin:20px;
+}
+
+.footer {
+    background-color: green;
+    height: 200px;
+    width: 100%;
+    float: left;
+}

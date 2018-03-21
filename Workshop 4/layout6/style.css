@@ -1,0 +1,43 @@
+.container {
+    width: 920px;
+    margin: auto;
+}
+
+.header {
+    background-color: blue;
+    height: 200px;
+    width: 460px;
+    float: left;
+}
+
+.greenContent {
+    background-color: green;
+    height: 200px;
+    width: 920px;
+    float: left;
+}
+
+.redContent {
+    background-color: red;
+    height: 474px;
+    width: 920px;
+    float: left;
+}
+
+.smallYellow {
+    background-color: yellow;
+    width: 192px;
+    height: 192px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.largeYellow {
+    background-color: yellow;
+    width: 415px;
+    height: 192px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+}
