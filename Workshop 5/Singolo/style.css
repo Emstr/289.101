@@ -68,7 +68,6 @@ body {
 .textContainer {
     height: 120px;
     margin-top: 20px;
-    
 }
 
 .servicesContainer {
@@ -84,13 +83,21 @@ body {
 
 .serviceImageContainer {
     float: left;
-    min-height:100px;
     width:25%;
 }
 
 .serviceTextContainer {
     float: left;
     width:75%;
+}
+
+.serviceTextContainer h3 {
+    margin: 0px;
+    font-size: 0.75rem
+}
+
+.serviceTextContainer p {
+    font-size: 0.75rem
 }
 
 @media screen and (max-width:480px) {
