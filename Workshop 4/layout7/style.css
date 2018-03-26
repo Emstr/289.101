@@ -1,0 +1,152 @@
+.header{
+    background-color: blue;
+    height: 70px;
+    width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logoArea{
+    background-color: yellow;
+    height: 30px;
+    width: 286px;
+    margin: 20px;
+    float: left;
+}
+
+.sloganArea{
+    background-color: yellow;
+    height: 30px;
+    width: 570px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+.content {
+    background-color: lime;
+    height: 500px;
+    width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.redContainer {
+    background-color: red;
+    height: 400px;
+    width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.redContentHeader {
+    background-color: yellow;
+    height: 140px;
+    width: 880px;
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+}
+
+.redContentImageContainer {
+    background-color: yellow;
+    height: 200px;
+    width: 280px;
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+}
+
+.blueContainer {
+    background-color: blue;
+    height: 820px;
+    width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blueContentHeader {
+    background-color: yellow;
+    height: 100px;
+    width: 880px;
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+}
+
+.blueContentImageContainer {
+    background-color: yellow;
+    height: 205px;
+    width: 205px;
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+}
+
+.greenContainer {
+    background-color: lime;
+    height: 600px;
+    width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.greenContentHeader {
+    background-color: yellow;
+    height: 150px;
+    width: 880px;
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+}
+
+.greenContentImageContainer {
+    background-color: yellow;
+    height: 390px;
+    width: 280px;
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+}
+
+.bottomRedContainer {
+    background-color: red;
+    height: 550px;
+    width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bottomRedContentHeader {
+    background-color: yellow;
+    height: 100px;
+    width: 880px;
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+}
+
+.bottomRedContentImageContainerLarge {
+    background-color: yellow;
+    height: 390px;
+    width: 580px;
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+}
+
+.bottomRedContentImageContainerSmall {
+    background-color: yellow;
+    height: 230px;
+    width: 280px;
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+}
+
+.footer {
+    background-color: blue;
+    height: 100px;
+    margin: auto;
+    width: 920px;
+}
