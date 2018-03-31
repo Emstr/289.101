@@ -60,25 +60,37 @@ body {
 }
 
 .services {
-    height: 500px;
-    max-width: 950px;
-    margin: auto;
-}
-
-.textContainer {
-    height: 120px;
-    margin-top: 20px;
+    color: #767E9E;
+    float: left;
+    width: 100%;
+    margin-top: 70px;
 }
 
 .servicesContainer {
-    height: 250px;
+    max-width: 950px;
+    margin: auto;
+    
+}
+
+.textContainer h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.textContainer p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.servicesContainer {
     margin-top: 20px;
 }
 
 .service {
     width: 300px;
     float: left;
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-right: 15px;
 }
 
 .serviceImageContainer {
@@ -93,13 +105,212 @@ body {
 
 .serviceTextContainer h3 {
     margin: 0px;
-    font-size: 0.75rem
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .serviceTextContainer p {
-    font-size: 0.75rem
+    font-size: 14px;
+    line-height: 1.5;
+
 }
 
-@media screen and (max-width:480px) {
+.portfolio {
+    background-color: #2D303A;
+    color: #767E9E;
+    float: left;
+    width: 100%;
+}
+
+.portfolioContainer {
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 65px;
+}
+
+.portfolioTextContainer {
+    float: left;
+    max-width:  950px;
+}
+
+.portfolioTextContainer ul {
+    list-style-type:none;  
+    margin:0;  
+    padding:0; 
+}
+
+.portfolioTextContainer li {
+    float: left;
+    padding: 5px;
+    border: 1px solid #767E9E;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.portfolioImageContainer {
+    float: left;
+    max-width: 950px;
+    margin-top: 20px;
+}
+
+.portfolioImage {
+    float: left;
+    width:225px;
+    height: 190px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+}
+
+.portfolioTextContainer h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.portfolioTextContainer p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.aboutUs {
+    color: #767E9E;
+    float: left;
+    width: 100%;
+}
+
+.aboutUsContainer {
+    max-width: 950px;
+    margin: auto;
+    margin-top: 65px;
+}
+
+.aboutUsTextContainer {
+    float: left;
+}
+
+.aboutUsTextContainer h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.aboutUsTextContainer p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.personContainer {
+    float: left;
+    width: 300px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+.personContainer h2 {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.personContainer p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.socialLinks img {
+    height: 35px;
+    width: 35px;
+}
+
+.quote {
+    float: left;
+    width: 100%;
+    background-color: #F06C64;
+    color: white;
+}
+
+.quoteContainer {
+    max-width: 950px;
+    margin: auto;
+    margin-top: 65px;
+}
+
+.quoteTextContainer {
+    float: left;
+}
+
+.form {
+    width: 70%;
+    float: left;
+}
+
+.contactInfo {
+    width: 30%;
+    height: 400px;
+    float: left;
+}
+
+
+input, textarea {
+    background-color: #D6564F;
+    width: 100%;
+    max-width: 623px;
+    height: 41px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #D6564F;
+    margin-bottom: 15px;
+    outline: none;
+    font-size: 18px;
+    color: white;
+    text-indent: 10px;
+    float: left;
+}
+
+textarea {
+    min-height: 205px;
+}
+
+::placeholder {
+    color: #F48C8F;
+    font-size: 18px;
+    text-indent: 10px;
+}
+
+.contactInfo ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.contactInfo ul img {
+    margin-right: 20px;
+}
+
+.footer {
+    background-color: #2D303A;
+    color: #666D89;
+    float: left;
+    width: 100%;
+    height: 90px;
+}
+
+.footerContainer {
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footerContainer p {
+    float: left;
+    margin-top: 37px;
+}
+
+@media screen and (max-width:950px) {
+
+    .services, .portfolioContainer, .aboutUs {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
     
 }
+@media screen and (max-width:670px) {}
+@media screen and (max-width:460px) {}
