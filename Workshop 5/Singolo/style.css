@@ -126,7 +126,8 @@ body {
     max-width: 950px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 65px;
+    margin-top: 65px;
+    margin-bottom: 65px;
 }
 
 .portfolioTextContainer {
@@ -231,6 +232,7 @@ body {
     max-width: 950px;
     margin: auto;
     margin-top: 65px;
+    margin-bottom: 65px;
 }
 
 .quoteTextContainer {
@@ -302,6 +304,12 @@ textarea {
 .footerContainer p {
     float: left;
     margin-top: 37px;
+}
+
+.footerSocialLinks {
+    float: right;
+    border: 1px solid yellow;
+    margin-top: 23px;
 }
 
 @media screen and (max-width:950px) {
