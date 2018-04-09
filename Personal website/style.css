@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+.content {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1400px;
+}
+
+.introText {
+    width: 100%;
+    max-width: 570px;
+    height: 292px;
+    background-color: red;
+    float: left;
+    text-align: right;
+}
+
+.articles {
+    width: 100%;
+    max-width: 744px;
+    height: 1000px;
+    background-color: blue;
+    float: left;  
+}
+
+.featuredPost1 {
+    max-width: 445px;
+    height: 375px;
+    background-color: yellow;
+    float: left;
+}
+
+.featuredPost2 {
+    width: 283px;
+    height: 375px;
+    background-color: pink;
+    float: left;
+}
+
+.imgContainer {
+    position: relative;
+    text-align: left;
+    color: white;
+}
+
+img {
+    width: 100%;
+}
+
+.blogTitle {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+}
+
+.articleHintText {
+    font-size: 14px;
+    font-family: Lato
+}
+
+.articleDateText {
+    font-size: 14px;
+    font-family: Lato;
+    color: #9B9B9B
+}
+
+.smallArticle {
+    width: 285px;
+    height: 150px;
+    background-color: orange;
+    float: left;
+    margin-right: 7px;
+}
+
+.largeArticle {
+    width: 445px;
+    height: 150px;
+    background-color: orange;
+    float: left;
+    margin-right: 7px;
+}
