@@ -8,8 +8,7 @@
 }
 
 .introText {
-    width: 100%;
-    max-width: 500px;
+    width: 40%;
     height: 292px;
     float: left;
     text-align: right;
@@ -28,22 +27,10 @@
 }
 
 .articles {
-    width: 100%;
-    max-width: 760px;
+    width: 50%;
     height: 1000px;
     float: left;  
     padding: 20px;
-}
-
-.featuredPost1 {
-    width: 445px;
-    float: left;
-    margin-right: 15px;
-}
-
-.featuredPost2 {
-    width: 283px;
-    float: left;
 }
 
 .imgContainer {
@@ -52,19 +39,63 @@
     color: white;
     height: 245px;
     overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
 }
 
-img {
-    width: 100%;
-    height: auto;
-    position: absolute;
-    margin: auto;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    
+.image1 {
+    background-image: url(Assets/Photos/Space.jpeg)
 }
+
+.image2 {
+    background-image: url(Assets/Photos/Coffee.jpeg)
+}
+
+.image3 {
+    background-image: url(Assets/Photos/Planes.jpeg)
+}
+
+.image4 {
+    background-image: url(Assets/Photos/Cars.jpeg)
+}
+
+.image5 {
+    background-image: url(Assets/Photos/Pie.jpeg)
+}
+
+.image6 {
+    background-image: url(Assets/Photos/Sanfran.jpeg)
+}
+
+.image7 {
+    background-image: url(Assets/Photos/Surf.jpeg)
+}
+
+.featuredPost1 {
+    width: 60%;
+    float: left;
+    margin-right:2.5%;
+}
+
+.featuredPost2 {
+    width: 35%;
+    float: left;
+}
+
+
+.overlay:before{
+  position: absolute;
+  content:" ";
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  display: block;
+  z-index:0;
+  background-color: rgba(0,0,0,0.3);
+}
+
 .blogTitle {
     position: absolute;
     bottom: 20px;
@@ -95,18 +126,18 @@ img {
 }
 
 .smallArticle {
-    width: 285px;
+    width: 35%;
     height: 150px;
     float: left;
-    margin-right: 15px;
+    margin-right: 2.5%;
     margin-top: 15px;
 }
 
 .largeArticle {
-    width: 445px;
+    width: 60%;
     height: 150px;
     float: left;
-    margin-right: 15px;
+    margin-right: 2.5%;
     margin-top: 15px;
 }
 
@@ -130,4 +161,30 @@ img {
 
 .largeArticle .imgContainer {
     height: 150px;
+}
+
+@media only screen and (max-width: 1272px) {
+    .featuredPost1 {
+    width: 47.5%;
+    }
+    
+    .featuredPost2 {
+    width: 47.5%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .featuredPost1, .featuredPost2 {
+    width: 100%;
+    }
+}
+
+@media only screen and (max-width: 815px) {
+    .featuredPost1, .featuredPost2, .smallArticle, .largeArticle {
+    width: 100%;
+    }
+    
+    .introText, .articles {
+        width: 90%;
+    }
 }
