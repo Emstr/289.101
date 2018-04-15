@@ -9,6 +9,28 @@ body {
     overflow-x: hidden; 
 }
 
+articleLink {
+    text-decoration: none;
+    color: black;
+}
+
+.articleLink:visited {color:black;}
+
+.overlay:hover, .overlay:active {
+  background-color: red;
+}
+
+.sidebarLink {
+    color: #FFF;
+    text-decoration: none;
+    border-bottom: 2px solid lime;
+    transition: color 0.3s ease-in-out;
+}
+
+.sidebarLink:hover, .sidebarLink:active {
+    color: lime;
+}
+
 .introText {
     width: 40%;
     height: 100vh;
@@ -19,29 +41,49 @@ body {
     color: #FFF;
 }
 
-.introTextContainer {
-    margin-right: 100px;
-    margin-top: 60px;
-}
-
-.introText h1 {
+.sidebar h1 {
     font-family: Bree Serif;
     font-size: 40px;
     font-weight: 100;
 }
 
-.introText p {
+.sidebar p {
     font-family: Lato;
     font-size: 16px;
     line-height: 1.8;
     font-weight: 100;
 }
 
-.articles {
-    width: 55%;
+.sidebarContainer {
+    background-color: #2C2C2C;
+    color: #FFF;
+    text-align: right;
+    width: 40%;
+    height: 100vh;
+    float: left;
+    position: fixed;
+}
+
+.sidebar {
+    margin-top: 80px;
+    width: 80%;
+    height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contentContainer {
+    margin-top: 40px;
+    width: 60%;
     margin-left: 40%;
-    float: left;  
-    padding: 2%;
+    height: 1000px;
+    float: left;
+}
+
+.content {
+    width: 90%;
+    height: 1000px;
+    margin: auto;
 }
 
 .imgContainer {
@@ -52,7 +94,25 @@ body {
     overflow: hidden;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center; 
+    background-position:center;
+    width: 100%;
+}
+
+.overlay:before{
+  position: absolute;
+  content:" ";
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  display: block;
+  z-index:0;
+  background-color: rgba(0,0,0,0.3);
+}
+
+.overlay:hover:before{
+  background-color: rgba(0,0,0,0.6);
+    transition: .3s ease;
 }
 
 .image1 {
@@ -95,17 +155,7 @@ body {
 }
 
 
-.overlay:before{
-  position: absolute;
-  content:" ";
-  top:0;
-  left:0;
-  width:100%;
-  height:100%;
-  display: block;
-  z-index:0;
-  background-color: rgba(0,0,0,0.3);
-}
+
 
 .blogTitle {
     position: absolute;
@@ -200,25 +250,22 @@ body {
     width: 100%;
     }
     
-    .introText, .articles {
+    .sidebarContainer {
+    width: 100%;
+    height: auto;
+    float: left;
+    position: static;
+}
+    
+    .sidebar {
         width: 90%;
     }
     
-    .introText {
-        position: static;
-        height: auto;
+    .contentContainer {
+        margin-top: 30px;
         width: 100%;
-        float: left;
-    }
-    
-    .articles {
         margin-left: 0px;
+        height: 1000px;
         float: left;
-    }
-    
-    .introTextContainer {
-        margin: auto;
-        width: 90%;
-        text-align: left;
 }
 }
