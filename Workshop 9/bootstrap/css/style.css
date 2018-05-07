@@ -1,0 +1,41 @@
+.blue {
+    background-color: cornflowerblue;
+    height: 30px;
+}
+
+.green {
+    background-color: yellowgreen;
+    height: 400px
+}
+
+.orange {
+    background-color: orange;
+    height: 200px;
+}
+
+.grey {
+    height: 70px;
+    background-color: darkgrey;
+}
+
+@media (min-width: 576px) {
+    .orange {
+        height: 70px;
+    }
+}
+
+/*Desktop*/
+
+@media (min-width: 768px) {
+    .orange {
+        height: 250px;
+    }
+    
+    .grey {
+        height: 200px;
+    }
+}
+
+@media (min-width: 992px) {
+    
+}
