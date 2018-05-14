@@ -1,0 +1,60 @@
+.container-fluid {
+  height: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.blue {
+    background-color: cornflowerblue;
+    height: 70px;
+}
+
+.green {
+    background-color: yellowgreen;
+    height: 70px;
+}
+
+.orange {
+    background-color: orange;
+    height: 500px;
+}
+
+.red {
+    background-color: red;
+    height: 300px;
+}
+
+.grey {
+    height: 30%;
+    background-color: darkgrey;
+    margin-bottom: 15px;
+    padding-right:7px;
+    padding-left:7px;
+}
+
+.test {
+    height: 100%
+}
+
+/*Tablet*/
+
+@media (min-width: 576px) {
+    .green {
+        height: 300px;
+    }
+    
+    .orange, .red {
+        height: 400px;
+    }
+    
+}
+
+/*Desktop*/
+
+@media (min-width: 768px) {
+    .green, .orange, .red {
+        height: 1000px;
+    }
+    
+}
+
