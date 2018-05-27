@@ -1,0 +1,85 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+.hero_container {
+    height: 360px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+  justify-content: center;
+}
+
+.hero_text_container {
+    color: #FFF;
+    font-family: Lato;
+    text-align: center;
+    align-self: center;
+}
+
+.hero_text_container h1 {
+    font-size: 64px;
+    font-weight: 800;
+    
+}
+
+.hero_text_container h3 {
+    font-size: 20px;
+    font-weight: 800;
+    
+}
+
+.destinations-container {
+    background-color: orange;
+    height: 650px;
+    margin: 0px;
+    float: left;
+    width: 100%
+}
+
+.destinations-text-container {
+    background-color: aqua;
+    margin-top: 30px; 
+    color: #393939;
+    font-family: Lato;
+    margin-left: 5%;
+    max-width: 400px;
+}
+
+.destinations-text-container h2 {
+    font-weight: 800;
+    font-size: 36px;
+}
+
+.destinations-scroll-wrapper {
+    height: 310px;
+    background-color: purple;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding-left: 5%;
+    &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.card {
+    width: 255px;
+    height: 310px;
+    flex: 0 0 auto;
+    background-color: black;
+    margin-right: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+    .destinations-text-container {
+       width: 30%;
+        float: left;
+    }
+    
+    .destinations-scroll-wrapper {
+        width: 60%;
+        float: right;
+    }
+} 
