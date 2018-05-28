@@ -7,7 +7,11 @@
     width: 100%;
     background-color: black;
     display: flex;
-  justify-content: center;
+    justify-content: center;
+    background-image: url('../assets/hero.jpg');
+    background-size: cover;
+    max-height:100%;
+    max-width:100%;
 }
 
 .hero_text_container {
@@ -79,13 +83,10 @@
     font-family: Lato;
     border-radius: 5px;
     position: relative;
-}
-
-.jupiter {
     padding: 20px;
 }
 
-.jupiter img {
+.card img {
     position: absolute;
     width: 128px;
     height: 128px;
@@ -94,7 +95,7 @@
     
 }
 
-.jupiter h2{
+.card h2{
     margin-top: 60px;
     margin-bottom: 20px;
     text-decoration: underline;
@@ -109,7 +110,7 @@
     
 }
 
-.jupiter p{
+.card p{
     margin-top: 45px;
     font-size: 12px;
 }
@@ -143,6 +144,7 @@
        width: 30%;
         float: left;
         margin-right: 0px;
+        
     }
     
     .destinations-scroll-wrapper {
@@ -165,8 +167,12 @@
 @media only screen and (min-width: 1500px) {
     .destinations-scroll-wrapper {
         min-width: 50%;
-        width: 1080px;
+        width: 1150px;
         float: right;
         padding-left: 0px;
+    }
+    
+    .destinations-text-container {
+        margin-left: 2%;
     }
 }
