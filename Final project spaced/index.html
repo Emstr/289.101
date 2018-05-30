@@ -104,7 +104,7 @@
                     <p>We take safety extremely seriously. Our suits & ships go through rigorous safety tests every 3 months. Our crew is hand picked and trained for any situation. The precautions we go through are world class – and we’ve got the stats to back our efforts up:</p>
                 </div>
                 <div class="safety-features-container">
-                    <div class="safety-block">
+                    <div class="safety-block first-safety-block">
                         <div class="number"><span class="count">14000</span>+</div>
                         <h5>Passengers</h5>
                     </div>
@@ -137,7 +137,21 @@
             // Customizing a reveal set
             //sr.reveal('.card', {duration:1500});
             sr.reveal('.card', { container: '.destinations-scroll-wrapper', duration:1500},300);
-            sr.reveal('.safety-block', {duration:1500},300);
+            sr.reveal('.first-safety-block', {duration:1500, beforeReveal: function () {
+                
+                $('.count').each(function () {
+                $(this).prop('Counter',0).animate({
+                Counter: $(this).text()
+                }, {
+            duration: 2000,
+            easing: 'swing',
+            step: function (now) {
+            $(this).text(Math.ceil(now));
+            }
+                });
+                });
+                    
+            },},300);
             sr.reveal('.hero_text_container', {duration:1500});
             
 

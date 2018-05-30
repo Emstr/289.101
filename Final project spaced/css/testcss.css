@@ -158,14 +158,23 @@
     width: 90%;
     margin: auto;
     max-width: 1450px;
+    border: 1px solid green;
+    height: 700px;
 }
 
 .safety-header {
     color: #FFF;
+    border: 1px solid pink;
+    float: left;
 }
 
 .safety-features-container {
     margin-top: 27px;
+    height: 500px;
+    max-width: 500px;
+    min-width: 350px;
+    border: 1px solid yellow;
+    float: left;
 }
 
 .safety-block {
@@ -186,6 +195,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 18px;
+    float: right;
 }
 
 .number {
