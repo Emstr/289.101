@@ -112,7 +112,7 @@
                         <div class="number"><span class="count">263</span></div>
                         <h5>Total trips taken</h5>
                     </div>
-                    <div class="safety-block">
+                    <div class="safety-block third-safety-block">
                         <div class="number"><span class="count">8000</span>+</div>
                         <h5>Adventures done</h5>
                     </div>
@@ -137,6 +137,7 @@
             // Customizing a reveal set
             //sr.reveal('.card', {duration:1500});
             sr.reveal('.card', { container: '.destinations-scroll-wrapper', duration:1500},300);
+            sr.reveal('.safety-block', {duration:1500})
             sr.reveal('.first-safety-block', {duration:1500, beforeReveal: function () {
                 
                 $('.count').each(function () {
@@ -150,7 +151,11 @@
             }
                 });
                 });
-                    
+                
+                
+                
+                
+                
             },},300);
             sr.reveal('.hero_text_container', {duration:1500});
             

@@ -33,11 +33,10 @@
 }
 
 .destinations-container {
-    height: 550px;
     margin: 0px;
     float: left;
     width: 100%;
-    
+    padding-bottom: 40px;
 }
 
 .destinations {
@@ -56,6 +55,7 @@
 .header-text-container h2 {
     font-weight: 900;
     font-size: 36px;
+    margin-bottom: 10px;
 }
 
 .destinations-header {
@@ -149,32 +149,31 @@
 
 .safety {
     float: left;
-    height: 780px;
     width: 100%;
-    background-color: #151515
+    background-color: #151515;
+    margin-bottom: 200px;
+    padding-bottom: 40px;
 }
 
 .safety-container {
     width: 90%;
     margin: auto;
-    max-width: 1450px;
-    border: 1px solid green;
-    height: 700px;
+    max-width: 1420px;
 }
 
 .safety-header {
     color: #FFF;
-    border: 1px solid pink;
     float: left;
 }
 
 .safety-features-container {
     margin-top: 27px;
-    height: 500px;
-    max-width: 500px;
+    width: 100%;
     min-width: 350px;
-    border: 1px solid yellow;
     float: left;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
 }
 
 .safety-block {
@@ -183,9 +182,9 @@
     font-weight: 900;
     width: 100%;
     height: 60px; 
-    padding: 0px 20px 0px 20px;
     text-align: center;
     max-width: 400px;
+    min-width: 180px;
     position: relative;
     background-color: red;
     border-radius: 5px;
@@ -195,7 +194,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 18px;
-    float: right;
 }
 
 .number {
@@ -236,10 +234,44 @@
     
     .destinations-container {
     height: 400px;
-
-    
 }
+    .safety-features-container {
+        float: right;
+        margin-top: 60px;
+    }
+    
+    .safety-block {
+        width: 49%;
+        
+    }
+    
+    .first-safety-block, .third-safety-block {
+        margin-right: 2%;
+    }
 } 
+
+@media only screen and (min-width: 914px) {
+    
+    .safety-features-container {
+        width:45%;
+
+    }
+    
+    .safety-block {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1140px) {
+    .safety-features-container {
+        width:70%;
+        margin-top: 80px;
+    }
+    
+    .safety-block {
+        width: 49%;
+    }
+}
 
 @media only screen and (min-width: 1500px) {
     .destinations-scroll-wrapper {
@@ -255,5 +287,10 @@
     
     .safety-container {
         width: 96%;
+        
+    }
+    
+    .first-safety-block, .third-safety-block {
+        margin-left: auto;
     }
 }
